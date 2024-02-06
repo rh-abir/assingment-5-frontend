@@ -41,7 +41,7 @@ const HeroSection = () => {
           >
             <h1
               className=" text-4xl sm:text-2xl font-semibold  md:font-extrabold 
-             md:text-5xl lg:text-6xl text-primary "
+             md:text-5xl lg:text-6xl text-primary"
             >
               Best Event management firm
             </h1>
@@ -56,8 +56,8 @@ const HeroSection = () => {
             </p>
           </motion.div>
         </motion.div>
-        <div className=" h-[608px]">
-          <img className="" src={heorImg} alt="" />
+        <div className="w-[1276px] h-[430px] ">
+          <img className="h-full w-full" src={heorImg} alt="" />
         </div>
       </Container>
     </div>
