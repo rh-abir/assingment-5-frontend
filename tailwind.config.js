@@ -28,8 +28,8 @@ export const theme = {
       },
 
       "primary-color": "hsl(var(--primary-color))",
-
       "primary-color-deep": "hsl(var(--primary-color-deep))",
+
       "text-primary": "hsl(var(--text-primary))",
       "gray-light": "hsl(var(--gray-light))",
 

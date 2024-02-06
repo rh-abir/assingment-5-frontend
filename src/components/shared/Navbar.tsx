@@ -1,8 +1,25 @@
+import { motion } from "framer-motion";
 import Container from "../Container";
 
 const Navbar = () => {
+  const navAnimation = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        duration: 1,
+        delay: 1,
+      },
+    },
+  };
+
   return (
-    <div className="bg-[#f5f6f7]">
+    <motion.div
+      variants={navAnimation}
+      initial="hidden"
+      animate="visible"
+      className="bg-[#f5f6f7]"
+    >
       <Container>
         <div className="navbar">
           <div className="navbar-start">
@@ -61,7 +78,7 @@ const Navbar = () => {
           </div>
         </div>
       </Container>
-    </div>
+    </motion.div>
   );
 };
 
