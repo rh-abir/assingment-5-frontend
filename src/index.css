@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -18,8 +20,10 @@
 
 
     --primary-color: 216, 91%, 47%;
-    --text-primary: 216, 82%, 13%;
+    --primary-color-deep: 216, 91%, 30%;
 
+    --text-primary: 216, 82%, 13%;
+    --gray-light: 213, 21%, 43%;
 
 
     --secondary: 210 40% 96.1%;
@@ -78,7 +82,14 @@
   }
 
   body {
+
     @apply bg-background text-foreground;
+    ;
+  }
+
+  html {
+    font-family: 'Roboto', sans-serif;
+
   }
 
   h2 {

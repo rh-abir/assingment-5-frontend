@@ -42,8 +42,8 @@ const Navbar = () => {
                 </li>
               </ul>
             </div>
-            <a className="btn btn-ghost text-xl">
-              Event <span>360</span>
+            <a className="font-semibold text-xl">
+              Event <span className="text-primary-color">360</span>
             </a>
           </div>
           <div className="navbar-center hidden lg:flex navbar-end">
